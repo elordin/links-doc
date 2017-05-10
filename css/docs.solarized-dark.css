@@ -1,0 +1,19 @@
+code {
+  background-color: #073642;
+  color: #586e75;
+}
+
+.tok-op,
+.tok-keyword {
+  color: #859900;
+}
+
+.tok-typename,
+.tok-typecons,
+.tok-typevar {
+  font-weight: bold;
+}
+
+.tok-funname {
+  color: #268bd2;
+}

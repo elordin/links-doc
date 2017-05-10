@@ -1,0 +1,54 @@
+{
+  "name": "Example",
+  "desc": "This serves to pupose of demonstrating the JSON format",
+  "meta": {
+    "Copyright": "University of Edinburgh",
+    "Maintainer": "links-lang@inf.ed.ac.uk",
+    "Stability": "stable"
+  },
+  "subModules": [
+    { "name": "Map", "url": "/docs/modules/data/map" },
+    { "name": "Byte", "url": "/docs/modules/data/byte" }
+  ],
+  "members": [
+    {
+      "typeName": "Size",
+      "alias": "Int",
+      "sourceUrl": "#"
+    },
+    {
+      "typeName": "Maybe(a)",
+      "varType": [
+        "Just: a",
+        "Nothing"
+      ],
+      "sourceUrl": "#",
+      "desc": "Option type"
+    },
+    {
+      "funName": "assert",
+      "signature": "(Bool, String) ~> ()",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempor nunc sed lorem vestibulum ultricies.",
+      "sourceUrl": "#"
+    },
+    {
+      "funName": "concatMap",
+      "signature": "((a) -b-> [c], [a]) -b-> [c]",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempor nunc sed lorem vestibulum ultricies.",
+      "sourceUrl": "#"
+    },
+    {
+      "funName": "map",
+      "signature": "((a) -b-> c, [a]) -b-> [c]",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempor nunc sed lorem vestibulum ultricies.",
+      "sourceUrl": "#"
+    },
+    {
+      "constName": "INT32_MAX",
+      "constType": "Int",
+      "value": "0x7FFFFFFF",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempor nunc sed lorem vestibulum ultricies.",
+      "sourceUrl": "#"
+    }
+  ]
+}
